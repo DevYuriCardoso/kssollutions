@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Menu Responsivo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./assets/img/logoColorida.png" alt="Logo Ks Solutions" class="logoMarca">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">SoluçõesKS</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div><!--LogoMarca-->
+            <div class="login-button">
+                <button><a href="#">Falar Com Especialista</a></button>
+            </div><!--Login-Button-->
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div> <!--Menu Icon-->
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+           
+        </div><!--Menu Mobile Icon-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Gestão De Processos e <br><span>Tecnologia</span></h1>
+                        <p>Descubra os Benefícios da Consultoria em Gestão de Processos e<br> Automação Robótica: Potencialize a Eficiência Operacional, Reduza <br>Custos e Leve Sua Empresa para o Próximo Nível Tecnológico.</p>
+                        <div class="alinhar-btn-contato">
+                            
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>SAIBA MAIS</button>
+                            </a>
+                        </div>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>ENTRE EM CONTATO</button>
+                            </a>
+                        </div>      
+                        
+                    </div>                
+                    </div><!--TXT-Top-Site-->
+                    <div class="img-topo-site">
+                       
+                        <img src="./assets/img/Sheilatopo.png" alt="Sheila Tirony">
+         
+                        
+                    </div><!--img-top-site-->   
+                                         
+                </div><!--Flex-->
+            </div><!--Interface-->
+        </section><!--Topo Do Site-->                       
+                    
+                    
+              
+    </main>
+
+    <section class="especialidades">
+        <!--Desktop-->
+        <div class="interface interface-desktop">
+            <h2 class="titulo">Descubra a transformação: Qual solução sua empresa precisa para alcançar novos horizontes?</h2>                
+            <p class="titulo-paragrafo">Explore Oportunidades, Potencialize Eficiências e Eleve Seu Negócio ao Próximo Nível. Descubra as Soluções Personalizadas que Impulsionarão sua Empresa rumo ao Sucesso.</p>           
+                        
+                <div class="card">
+                <img class="cardTranformacao" src="./assets/img/cards/01automacaodesistemas.png" alt="">             
+                <img class="cardTranformacao" src="./assets/img/cards/02gestaodeprocessoetecnologia.png" alt="">             
+                <img class="cardTranformacao" src="./assets/img/cards/03implantacaoerperobo.png" alt="">             
+                <img class="cardTranformacao" src="./assets/img/cards/04implantacaoeanalisedetecnologia.png" alt="">    
+                </div>
+                                                                        
+                <section class="newsletter">
+                    <h3>Fique Antenado Nas Novidades</h3>
+                    <p>Inscreva-se Para Receber Novidades!</p>
+                    <form>
+                        <input type="email" name="email" placeholder="Seu Email...">
+                        <button type="submit">enviar</button>
+                    </form>
+                </section>
+
+                <!--Mobile-->
+              
+        </div>
+
+        <div class=" interface interface-mobile">
+            <h2 class="titulo">Descubra a transformação: Qual solução sua empresa precisa para alcançar novos horizontes?</h2>                
+            <p class="titulo-paragrafo">Explore Oportunidades, Potencialize Eficiências e Eleve Seu Negócio ao Próximo Nível. Descubra as Soluções Personalizadas que Impulsionarão sua Empresa rumo ao Sucesso.</p>           
+                        
+                <div class="card-mobile">
+                    <img class="cardTranformacao" src="./assets/img/cards/01automacaodesistemas.png" alt="">             
+                    <img class="cardTranformacao" src="./assets/img/cards/02gestaodeprocessoetecnologia.png" alt="">               
+                  
+                </div>
+                <div class="card-mobile">
+                    <img class="cardTranformacao" src="./assets/img/cards/03implantacaoerperobo.png" alt="">             
+                    <img class="cardTranformacao" src="./assets/img/cards/04implantacaoeanalisedetecnologia.png" alt="">  
+                </div>
+                                                                        
+                <section class="newsletter">
+                    <h3>Fique Antenado Nas Novidades</h3>
+                    <p>Inscreva-se Para Receber Novidades!</p>
+                    <form>
+                        <input type="email" name="email" placeholder="Seu Email...">
+                        <button type="submit">enviar</button>
+                    </form>
+                </section>
+        </div>
+        <div class="interface interface-consultoria">
+            <h2 class="titulo">Por que optar por uma consultoria especializada em gestão de processos para sua empresa?</h2>  
+            <div class="flex">
+                <img class="card-gestao-processos" src="./assets/img/cards/eficienciaOperacional.png" alt="">
+                <p class="txt-cards_Left"> <span id="strong" class="txt-titulo__Cards">Eficiência Operacional</span> <br>Consultores em gestão de processos podem analisar e otimizar as operações internas da sua empresa, identificando áreas de ineficiência e propondo melhorias que resultem em maior eficiência.</p>
+                <p class="txt-cards_Right"> <span id="strong" class="txt-titulo__Cards" >Agilidade nas Tomadas de Decisão</span><br>Processos mais eficientes proporcionam informações mais rápidas e precisas. Isso facilita a tomada de decisões ágeis, fundamentadas em dados e análises.</p>
+                <img class="card-gestao-processos" src="./assets/img/cards/decisao.png" alt="">
+               
+            </div>    
+
+            <div class="flex">
+                <img class="card-gestao-processos" src="./assets/img/cards/extraction.gif" alt="">
+                <p class="txt-cards_Left"><span  id="strong" class="txt-titulo__Cards">Eficiência Operacional</span><br>Consultores em gestão de processos podem analisar e otimizar as operações internas da sua empresa, identificando áreas de ineficiência e propondo melhorias que resultem em maior eficiência.</p>
+                <p class="txt-cards_Right"><span id="strong" class="txt-titulo__Cards" >Redução de Custos</span> <br>Processos mais eficientes proporcionam informações mais rápidas e precisas. Isso facilita a tomada de decisões ágeis, fundamentadas em dados e análises.
+
+                </p>
+                <img class="card-gestao-processos" src="./assets/img/cards/custo.png" alt="">
+               
+                
+            </div>  
+                 
+                <div class="flex-gestao">
+                    <div class="gestao-processos">
+                        <h6>Gestão de Processos </h6>
+                        <h1>Rumo à Excelência na Organização Empresarial: Otimizando Fluxos e Desempenho"</h1>
+                        <p class="gestao-processos_p">Transforme a maneira como sua empresa opera com nossos serviços especializados em Gestão de Processos. Nossa abordagem personalizada visa otimizar cada aspecto das operações, desde a análise até a implementação, garantindo eficiência e agilidade.</p>
+                    </div>
+                    <div class="img-projects">
+                        <img src="./assets/img/svg/innovation-1.svg" alt=""></div>               
+                            
+                    </div>
+
+                    <div class="img-projects-mobile">
+                        <img src="./assets/img/svg/innovation-1.svg" alt=""></div>               
+                            
+                    </div>
+                </div><!--Flex Gestão-->
+            </div>
+
+            <div class="interface interface-mobile">
+                <h2 class="titulo">Por que optar por uma consultoria especializada em gestão de processos para sua empresa?</h2>  
+                <div class="flex">
+                    <img class="card-gestao-processos" src="./assets/img/cards/eficienciaOperacional.png" alt="">
+                   <h3>Eficiência Operacional</h3>                  
+                   <p>Consultores em gestão de processos podem analisar e otimizar as operações internas da sua empresa, identificando áreas de ineficiência e propondo melhorias que resultem em maior eficiência.</p>
+                    <img class="card-gestao-processos" src="./assets/img/cards/decisao.png" alt="">
+                    <h3>Agilidade nas Tomadas de Decisão</h3>
+                    <p >Processos mais eficientes proporcionam informações mais rápidas e precisas. Isso facilita a tomada de decisões ágeis, fundamentadas em dados e análises.</p>
+                  
+                   
+                </div>    
+    
+                <div class="flex">
+                    <img class="card-gestao-processos" src="./assets/img/cards/extraction.gif" alt="">
+                    <h3>Eficiência Operacional</h3>
+                    <p >Consultores em gestão de processos podem analisar e otimizar as operações internas da sua empresa, identificando áreas de ineficiência e propondo melhorias que resultem em maior eficiência.</p>
+                    
+                    <img class="card-gestao-processos" src="./assets/img/cards/custo.png" alt="">
+                    <h3>Redução de Custos</h3>
+                    <p >Processos mais eficientes proporcionam informações mais rápidas e precisas. Isso facilita a tomada de decisões ágeis, fundamentadas em dados e análises.
+    
+                    </p>
+                    
+                   
+                    
+                </div>  
+                     
+                    <div class="flex-gestao">
+                        <div class="gestao-processos">
+                            <h6>Gestão de Processos </h6>
+                            <h1>Rumo à Excelência na Organização Empresarial: Otimizando Fluxos e Desempenho"</h1>
+                            <p class="gestao-processos_p">Transforme a maneira como sua empresa opera com nossos serviços especializados em Gestão de Processos. Nossa abordagem personalizada visa otimizar cada aspecto das operações, desde a análise até a implementação, garantindo eficiência e agilidade.</p>
+                        </div>
+                        <div class="img-projects">
+                            <img src="./assets/img/svg/innovation-1.svg" alt=""></div>               
+                                
+                        </div>
+    
+                        <div class="img-projects-mobile">
+                            <img src="./assets/img/svg/innovation-1.svg" alt=""></div>               
+                                
+                        </div>
+                    </div><!--Flex Gestão-->
+                </div>
+          
+                </div>
+
+            <div class="parceiros">
+
+                <h3 class="titulo_Parceiros--h3 flex " >Parceiros</h3>
+               <div class="flex imagens_Parceiros--img">
+                <img class="imagem_parceiros" src="./assets/img/parceiros/artia.png" alt="Artia">
+                <img class="imagem_parceiros" src="./assets/img/parceiros/formulaCerta.png" alt="FormulaCerta">
+                <img class="imagem_parceiros"src="./assets/img/parceiros/lecom.png" alt="Lecom">
+                <img class="imagem_parceiros"src="./assets/img/parceiros/omie.png" alt="Omie">
+                <img class="imagem_parceiros" src="./assets/img/parceiros/nomus.png" alt="Nomus">
+              </div><!--Flex LogoMarcas-->
+            </div>          
+    
+        </div> 
+
+        <div class="parceiros-mobile">
+            <h6>Parceiros</h6>
+            <div class="flex">
+                <div class="imagem_parceiria">
+                    <img src="./assets/img/parceiros/artia.png" alt="">
+                    <img src="./assets/img/parceiros/formulaCerta.png" alt="">
+                </div>
+                <div class="imagem_parceiria ">
+                    <img src="./assets/img/parceiros/lecomcup.png" alt="">
+                    <img src="./assets/img/parceiros/omiecup.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="bottom-nav flex">
+                <div class="container">
+                    <ul>
+                        <li class = "list-title">Menu</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Soluções</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>                        
+                    </ul>
+
+                    <ul>
+                        <li class = "list-title">Soluções</li>
+                        <li><a href="#">Gestão de processos e tecnologia</a></li>
+                        <li><a href="#">Implantação de ERP e Robô</a></li>
+                        <li><a href="#">Analise e implantação</a></li>
+                        <li><a href="#">Automação e processoss</a></li>  
+                                 
+                    </ul>
+
+                    <ul>
+                        <li class = "list-title">Entrar Em Contato</li>
+                        <li><a href="#">(71) 2137-1747</a></li>
+                        <li><a href="#">Ir para formulário</a></li>
+                        <li><a href="#"><strong>Localização</strong></a></li>
+                        <li><a href="#">Edifício Macêdo - R. Francisco Drumond,<br> 41 - Centro, Camaçari - BA, 42800-063</a></li>
+                       
+                    </ul>                    
+                </div>          
+
+               
+                  
+                       
+                  
+
+            </div>
+
+          
+
+            <div class="copyright-text">
+                2024 &copy; copyright 2023 - Todos os direitos reservados KS Solutions
+
+                   
+            </div>
+        </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
